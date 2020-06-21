@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]" parallel="tests">
+  <test name="test 1(failed)" parallel="tests">
+    <classes>
+      <class name="com.sam.DataProviders">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="tc1"/>
+        </methods>
+      </class> <!-- com.sam.DataProviders -->
+    </classes>
+  </test> <!-- test 1(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
